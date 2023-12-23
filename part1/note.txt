@@ -1,0 +1,4 @@
+math.random() 0 ile 1 arasında sayı üretir
+math.ceil(Math.random()* 49 ) üretilen sayıyı yukarıya yuvarlar
+return sonucu geri döndürür
+ctrl + k ve ctrl + c yapınca satırı yoruma alır
