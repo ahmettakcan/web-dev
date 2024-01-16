@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables Styling</title>
+
+    <style>
+        table,tr,td,th{
+            border: 1px black solid;
+            border-collapse: collapse; /* borderlari birleştirmek için kulanılır. */
+        }
+        table{
+            width: 75%;
+            margin: 0 auto;
+            font-size: 1.5em;
+        }
+        th, td{
+            padding: 10px;
+        }
+        thead tr{
+            background: seagreen;
+            color: wheat;
+        }
+        tbody tr{
+            text-align: center;
+        }
+        tbody tr:nth-child(even){
+            background: seashell;
+        }
+        tbody tr:hover{
+            background: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+    <table class="employees">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Wage</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Ahmet</th>
+                <th>Akcan</th>
+                <th>10.000$</th>
+            </tr>
+            <tr>
+                <th>Ahmet</th>
+                <th>Akcan</th>
+                <th>10.000$</th>
+            </tr>
+            <tr>
+                <th>Ahmet</th>
+                <th>Akcan</th>
+                <th>10.000$</th>
+            </tr>
+            <tr>
+                <th>Ahmet</th>
+                <th>Akcan</th>
+                <th>10.000$</th>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
